@@ -27,9 +27,9 @@ tags:
 - Code
 - Change Log Example
 - Change Log
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/feeds/master/_listings/github/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/github/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Github
@@ -40,7 +40,7 @@ apis:
   tags: Feeds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/feeds/master/_listings/github/feeds-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/github/feeds-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
