@@ -30,15 +30,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/google-content-api-for-shopping/merchantid-datafeeds-get.md
-- name: Google Content API for Shopping API Data Feeds
-  description: Retrieves data feed batches.
+- name: Google Content API for Shopping API Get Data Feeds
+  description: Lists the datafeeds in your Merchant Center account. This method can
+    only be called for non-multi-client accounts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google-shopping-API1.jpg
   humanURL: https://developers.google.com/shopping-content/v2/quickstart
   baseURL: http:://www.googleapis.com//content/v2
   tags: Feeds
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/google-content-api-for-shopping/datafeeds-batch-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/google-content-api-for-shopping/merchantid-datafeeds-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/google-content-api-for-shopping/merchantid-datafeeds-get-postman.md
 x-common:
 - type: x-best-practices
   url: https://developers.google.com/shopping-content/v2/best-practices
