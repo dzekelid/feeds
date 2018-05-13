@@ -29,7 +29,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/meetup/activity-get.md
+- name: Meetup ActivityFeed
+  description: API method for retrieving the activity feed for a member's groups
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
+  humanURL: http://www.meetup.com/
+  baseURL: https://api.meetup.com//
+  tags: Feeds
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/meetup/activity-get.md
 x-common:
+- type: x-base
+  url: http://api.meetup.com
+- type: x-developer
+  url: http://www.meetup.com/meetup_api/
+- type: x-github
+  url: https://github.com/meetup
+- type: x-pricing
+  url: http://www.meetup.com/pricing/
+- type: x-privacy
+  url: http://www.meetup.com/privacy/
+- type: x-support
+  url: http://www.meetup.com/help/
+- type: x-terms-of-service
+  url: http://www.meetup.com/terms/
+- type: x-twitter
+  url: https://twitter.com/MeetupAPI
+- type: x-website
+  url: http://www.meetup.com/
 - type: x-base
   url: http://api.meetup.com
 - type: x-developer
