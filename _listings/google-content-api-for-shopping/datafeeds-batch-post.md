@@ -1,9 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Content API for Shopping
-  description: Manages product items, inventory, and Merchant Center accounts for
-    Google Shopping.
+  title: Google Content API for Shopping API Data Feeds
+  description: Retrieves data feed batches.
   contact:
     name: Google
     url: https://google.com
