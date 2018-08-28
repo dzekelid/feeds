@@ -7,87 +7,85 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-a
 x-kinRank: "8"
 x-alexaRank: "79571"
 tags: Feeds
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Urban Airship Post Feeds
-  x-api-slug: urban-airship
+- name: Urban Airship - Post Feeds
+  x-api-slug: feeds-post
   description: Creates a new feed item.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///feeds
-  tags: Feeds
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feeds-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feeds-post-openapi.md
-- name: Urban Airship Get Feeds
-  x-api-slug: urban-airship
+- name: Urban Airship - Get Feeds
+  x-api-slug: feeds-get
   description: Gets a list of feeds.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///feeds
-  tags: Feeds
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feeds-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feeds-get-openapi.md
-- name: Urban Airship Get Feeds Feed
-  x-api-slug: urban-airship
+- name: Urban Airship - Get Feeds Feed
+  x-api-slug: feedsfeed-id-get
   description: Returns information about a particular feed.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///feeds/{feed_id}
-  tags: Feeds,Feed,Id
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feedsfeed-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feedsfeed-id-get-openapi.md
-- name: Urban Airship Put Feeds Feed
-  x-api-slug: urban-airship
+- name: Urban Airship - Put Feeds Feed
+  x-api-slug: feedsfeed-id-put
   description: Updates a feed.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///feeds/{feed_id}
-  tags: Feeds,Feed,Id
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feedsfeed-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feedsfeed-id-put-openapi.md
-- name: Urban Airship Delete Feeds Feed
-  x-api-slug: urban-airship
+- name: Urban Airship - Delete Feeds Feed
+  x-api-slug: feedsfeed-id-delete
   description: Deletes a feed.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
   humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api///feeds/{feed_id}
-  tags: Feeds,Feed,Id
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feedsfeed-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/feedsfeed-id-delete-openapi.md
-- name: Urban Airship
-  x-api-slug: urban-airship
-  description: The Urban Airship Push API is a major update which unifies several
-    legacy endpoints into two&mdash; one for sending messages and one for scheduling.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
-  humanURL: http://urbanairship.com/
-  baseURL: https://go.urbanairship.com//api/
-  tags: Feeds
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/feeds/master/_listings/urban-airship/openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/
 - type: x-android-sdk
   url: http://docs.urbanairship.com/platform/android.html
+- type: x-api-gallery
+  url: http://ulster.bank.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://urban.airship.stack.network
 - type: x-blackberry-sdk
   url: http://docs.urbanairship.com/platform/blackberry.html
 - type: x-blog
